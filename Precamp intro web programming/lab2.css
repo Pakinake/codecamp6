@@ -1,0 +1,23 @@
+.tool {
+position: relative;
+display: inline-block;
+border-bottom: 1px dotted black;
+}
+
+.tool .text {
+    visibility: hidden;
+    width: 100px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 6px 0;
+    position: absolute;
+    top: 100%;
+    left: 10%;
+  }
+
+  .tool:hover .text {
+      visibility: visible;
+  }
+  
