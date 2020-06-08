@@ -1,0 +1,50 @@
+.newcontainer{
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.newbox1{
+    display: flex;
+    background-color: lightblue;
+    width: 800px;
+    height: 380px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 10px;
+}
+
+.newbox1 > div {
+    background-color: gray;
+    width: 400px;
+    height: 380px;
+    text-align: center;
+}
+
+.newimg{
+    background-color: lightgreen;
+    height: 240px;
+    font-size: 180px;
+}
+
+.newbox2{ 
+    background-color: lightblue;
+    width: 280px;
+    height: 280px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 80px;
+ }
+
+.newbox3{
+    display: grid;
+    background-color: lightblue;
+    width: 800px;
+    height: 400px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+
+.newtext{
+    vertical-align: top;
+    text-align: justify;
+}
