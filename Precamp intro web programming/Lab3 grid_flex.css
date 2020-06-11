@@ -48,3 +48,43 @@
     vertical-align: top;
     text-align: justify;
 }
+
+.shopcontainer{
+    display: grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    grid-template-rows: 200px 400px;
+    justify-content: center;
+    grid-gap: 20px;
+    background-color: gray;
+}
+
+.shopcontainer > div{
+    background-color: lightseagreen;
+}
+
+.shopbox1{
+    font-size: 150px;
+    text-align: center;
+    grid-column: 1/5;
+}
+
+.shopbox{
+    font-size: 100px;
+    text-align: center;
+}
+
+.shopcontainer2{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(8, 175px);
+    grid-template-rows: 100px;
+    background-color: grey;
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.shopcontainer2 > div {
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 80px;
+}
