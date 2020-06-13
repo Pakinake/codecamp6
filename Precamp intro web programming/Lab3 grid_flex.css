@@ -88,3 +88,35 @@
     text-align: center;
     font-size: 80px;
 }
+
+.skillcontainer{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 250px;
+    background-color: gray;
+}
+
+.skillcontainer > div {
+    background-color: lightsalmon;
+}
+
+.skillbox {
+    font-size: 200px;
+    text-align: center;
+}
+
+.skillcontainer2 {
+    display: grid;
+    grid-template-columns: repeat(7, 200px);
+    grid-template-rows: 250px;
+    grid-gap: 10px;
+    background-color: gray;
+    margin: 100px 150px 0px 300px;
+}
+
+.skillcontainer2 > div {
+    background-color: lightskyblue;
+    text-align: center;
+    font-size: 16px;
+}
+
