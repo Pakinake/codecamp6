@@ -1,0 +1,13 @@
+.main{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    right: 100px;
+    bottom: 200px;
+}
+
+.box1{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+}
