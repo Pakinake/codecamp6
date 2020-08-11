@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review CSS</title>
+    <style>
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Syntax</th>
+                <th>Writing Style</th>
+                <th>Selector</th>
+                <th>Combinator</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>คือส่วนประกอบของคำสั่งเพื่อให้เกิดผลตามที่เราต้องการประกอบด้วย Selector, Property, Value</td>
+                <td>มีการเขียนได้ 3 แบบคือ External, Internal, Inline</td>
+                <td>มีทั้งหมด 5 แบบ Simple selectors, Combinator selectors, Pseudo-class selectors, Pseudo-elements selectors, Attribute selectors</td>
+                <td>มี 4 แบบ descendant selector (space), child selector (>), adjacent sibling selector (+), general sibling selector (~)</td>
+            </tr>
+        </tbody>
+    </table><br>
+<h2>EX Syntax</h2>
+<p> table { border-collapse: collapse; }</p><br>
+<h2>EX Writing Style</h2>
+<p>
+    <ul>
+        <li>External จะทำการสร้างไฟล์แยกออกมาจาก html โดยสกุลไฟล์จะลงท้ายด้วย.css แล้วนำเข้าไปในhtmlด้วย Tag link </li>
+        <li>Internal ใช้ Tag Style ภายใน html แล้วทำการกำหนดค่าต่างๆจากภายใน HTML ได้เลย เหมาะกับการตกแต่งไม่เยอะมาก</li>
+        <li>Inline คือการแทรก Systax ไว้ใน Tag HTML เลย เช่น div style="font-size: 10px;" </li>
+    </ul>
+</p><br>
+<h2>EX Selector</h2>
+<p>
+    <ul>
+        <li>sample selector: div { font-size: 30px; }</li>
+        <li>Pseudo-class: a:hover { color: red; }</li>
+        <li>Pseudo-elements: p::first-line { color: red; }</li>
+        <li>Attribute selectors: [title~="flower"] { border: 5px solid yellow; } </li>
+    </ul>
+</p><br>
+<h2>EX Combinator</h2>
+<p> div ~ p { background-color: yellow; }</p>
+</body>
+</html>
